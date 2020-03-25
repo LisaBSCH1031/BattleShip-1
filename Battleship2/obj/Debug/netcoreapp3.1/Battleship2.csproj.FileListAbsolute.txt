@@ -11,3 +11,16 @@ C:\Users\Student\Desktop\Battleship2\Battleship2\obj\Debug\netcoreapp3.1\Battles
 C:\Users\Student\Desktop\Battleship2\Battleship2\obj\Debug\netcoreapp3.1\Battleship2.pdb
 C:\Users\Student\Desktop\Battleship2\Battleship2\bin\Debug\netcoreapp3.1\Figgle.dll
 C:\Users\Student\Desktop\Battleship2\Battleship2\obj\Debug\netcoreapp3.1\Battleship2.csproj.CopyComplete
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\bin\Debug\netcoreapp3.1\Battleship2.exe
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\bin\Debug\netcoreapp3.1\Battleship2.deps.json
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\bin\Debug\netcoreapp3.1\Battleship2.runtimeconfig.json
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\bin\Debug\netcoreapp3.1\Battleship2.runtimeconfig.dev.json
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\bin\Debug\netcoreapp3.1\Battleship2.dll
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\bin\Debug\netcoreapp3.1\Battleship2.pdb
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\bin\Debug\netcoreapp3.1\Figgle.dll
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\obj\Debug\netcoreapp3.1\Battleship2.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\obj\Debug\netcoreapp3.1\Battleship2.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\obj\Debug\netcoreapp3.1\Battleship2.AssemblyInfo.cs
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\obj\Debug\netcoreapp3.1\Battleship2.csproj.CopyComplete
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\obj\Debug\netcoreapp3.1\Battleship2.dll
+C:\Users\Student\Desktop\BattleShip-1\Battleship2\obj\Debug\netcoreapp3.1\Battleship2.pdb

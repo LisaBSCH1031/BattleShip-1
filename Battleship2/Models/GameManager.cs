@@ -154,7 +154,7 @@ namespace Battleship2.Models
                         }
                         else
                         {
-                            Console.WriteLine("DON'T MESS UP! Only 1 more wrong guess!");
+                            Console.WriteLine("DON'T MESS UP! You have 0 wrong guesses left!");
                         }
                         Console.WriteLine();
                         Console.WriteLine("GUESS: ");
@@ -223,56 +223,53 @@ namespace Battleship2.Models
                                     C++;
                                     break;
                             }
+                            rightGuesses++; //add one to rightguesses - it only takes 17 to win
+                            if (rightGuesses == 17)
+                            {
+                                Console.ResetColor();
+                                Console.ForegroundColor = ConsoleColor.Blue;
 
-                            if (B == 4)
-                            {
-                                Console.WriteLine(FiggleFonts.Big.Render("You sank my BattleShip!!"));
-                                B--; //take one away from variable so it only shows that one time
-                            }
-                            else if (S == 3)
-                            {
-                                Console.WriteLine(FiggleFonts.Big.Render("You sank my Submarine!!"));
-                                S--;
-                            }
-                            else if (R == 3)
-                            {
-                                Console.WriteLine(FiggleFonts.Big.Render("You sank my Cruiser!!"));
-                                R--;
-                            }
-                            else if (D == 2)
-                            {
-                                Console.WriteLine(FiggleFonts.Big.Render("You sank my Destroyer!!"));
-                                D--;
-                            }
-                            else if (C == 5)
-                            {
-                                Console.WriteLine(FiggleFonts.Big.Render("You sank my Carrier!!"));
-                                C--;
+                                Console.WriteLine(FiggleFonts.BigChief.Render("YOU WIN!"));
+                                Console.WriteLine("CONGRATS ON BEATING THE COMPUTER!");
+                                Console.WriteLine("Press Enter to Play Again");
+                                Console.ReadLine();
+                                break;
                             }
                             else
                             {
-                                if (rightGuesses == 17)
+                                if (B == 4)
                                 {
-                                    continue;
+                                    Console.WriteLine(FiggleFonts.Big.Render("You sank my BattleShip!!"));
+                                    B--; //take one away from variable so it only shows that one time
+                                }
+                                else if (S == 3)
+                                {
+                                    Console.WriteLine(FiggleFonts.Big.Render("You sank my Submarine!!"));
+                                    S--;
+                                }
+                                else if (R == 3)
+                                {
+                                    Console.WriteLine(FiggleFonts.Big.Render("You sank my Cruiser!!"));
+                                    R--;
+                                }
+                                else if (D == 2)
+                                {
+                                    Console.WriteLine(FiggleFonts.Big.Render("You sank my Destroyer!!"));
+                                    D--;
+                                }
+                                else if (C == 5)
+                                {
+                                    Console.WriteLine(FiggleFonts.Big.Render("You sank my Carrier!!"));
+                                    C--;
                                 }
                                 else
                                 {
                                     Console.WriteLine(FiggleFonts.Bell.Render("You Hit Me!"));
                                 }
-                            }
-                            rightGuesses++; //add one to rightguesses - it only takes 17 to win
-                                if (rightGuesses == 17)
-                                {
-                                Console.ResetColor();
-                                Console.ForegroundColor = ConsoleColor.Blue;
 
-                                Console.WriteLine(FiggleFonts.Ivrit.Render("YOU WIN!"));
-                                Console.WriteLine("CONGRATS ON BEATING THE COMPUTER!");
-                                Console.WriteLine("Press Enter to Play Again");
-                                    Console.ReadLine();
-                                    break;
-                                }
-                                Console.WriteLine("Press Enter to Guess Again. ");
+                            }
+
+                            Console.WriteLine("Press Enter to Guess Again. ");
                         }
                         Console.ReadLine();
                     }
